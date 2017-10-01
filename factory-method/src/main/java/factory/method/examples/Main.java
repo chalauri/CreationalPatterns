@@ -6,7 +6,7 @@ package main.java.factory.method.examples;
 public class Main {
 
     public static void main(String[] args) {
-        ClientPolymorphic client = new ClientPolymorphic();
+        Client client = new Client();
         client.readShapes(mockFile());
 
         client.drawAllShapes();
